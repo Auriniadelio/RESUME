@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f9f9f9; color: #333; line-height: 1.6; }
+    header { background: #fff; padding: 2rem; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    header img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; }
+    header h1 { font-size: 2rem; margin-top: 1rem; }
+    header p { color: #666; }
+    nav { background: #333; color: #fff; display: flex; justify-content: center; gap: 1rem; padding: 0.5rem; }
+    nav a { color: #fff; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    section { margin-bottom: 2rem; }
+    h2 { border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #222; }
+    .contact-info { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .download-btn { display: inline-block; padding: 0.75rem 1.5rem; background: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 1rem; font-weight: 600; }
+    .download-btn:hover { background: #0056b3; }
+    footer { text-align: center; padding: 1rem; color: #888; font-size: 0.9rem; }
+    @media (max-width: 600px) {
+      header img { width: 100px; height: 100px; }
+      header h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Replace 'profile.jpg' with your image path -->
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>Your Name</h1>
+    <p>Your Job Title or Tagline</p>
+    <!-- Replace 'resume.pdf' with your PDF file path -->
+    <a class="download-btn" href="resume.pdf" download>Download Resume</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Write a short bio here. Introduce yourself, your background, and what you're passionate about.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <p><strong>Job Title - Company</strong><br>Dates of Employment<br>Description of your responsibilities and achievements.</p>
+      <p><strong>Job Title - Company</strong><br>Dates of Employment<br>Description of your responsibilities and achievements.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>Degree - Institution</strong><br>Graduation Year<br>Relevant coursework or achievements.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+        <li>Skill 4</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
